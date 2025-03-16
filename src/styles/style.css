@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+}
+
+.name-logo{
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+    transition: .3s;
+
+}
+
+.navigation a:hover{
+    color: rgb(94, 35, 196);
+}
+
+body{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+      
+}
